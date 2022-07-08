@@ -1,0 +1,74 @@
+body {
+    box-sizing: border-box;
+    background-color: #fbbc02;
+    margin: 0%;
+    padding: 0%;
+    font-family: "lato" sans-serif; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.RegistroForm {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.tittle {
+    font-size: 40px;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content:center;
+    height: min-content;
+}
+.Datos {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 20px;
+}
+.boton{
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Alfa Slab One';
+    font-size: 17px;
+    margin-top: 30px;
+}
+.boton:hover {
+    background-color: #9867c5;
+    transform: translateY(-2px);
+    cursor:pointer;
+}
+img {
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center
+}
+.logologin {
+    display: flex;
+    justify-content: center;
+}
